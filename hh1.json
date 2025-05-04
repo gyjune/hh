@@ -1,0 +1,896 @@
+{
+"spider":"https://gitee.com/gyjune/hh/raw/master/jsydd.jar",
+
+"warningText": "呵呵有名接口完全免费，切勿付费购买！",
+
+	"lives":[
+			{
+				"name": "默认1",
+				"type": 0,
+				"ua": "okhttp/3.15",
+				"epg": "https://live.fanmingming.cn/e.xml",
+				"logo": "https://live.fanmingming.cn/tv/{name}.png",
+				"url": "https://8177.kstore.space/jsyd.txt"
+				
+			},
+			{
+				"name": "默认2",
+				"type": 0,
+				"ua": "okhttp/3.15",
+				"epg": "https://live.fanmingming.cn/e.xml",
+				"logo": "https://live.fanmingming.cn/tv/{name}.png",
+				"url": "https://gh-proxy.com/raw.githubusercontent.com/gyjune/n_live/main/TVbox_Free/LIVE/Free/HD_LIVE.txt"
+				
+			},
+			{
+				"name": "默认3",
+				"type": 0,
+				"ua": "okhttp/3.15",
+				"epg": "https://live.fanmingming.cn/e.xml",
+				"logo": "https://live.fanmingming.cn/tv/{name}.png",
+				"url": "https://codeberg.org/gyj07/TV/raw/branch/main/tv3.txt"
+				
+			},
+			{
+				"name": "默认4",
+				"type": 0,
+				"ua": "okhttp/3.15",
+				"epg": "https://live.fanmingming.cn/e.xml",
+				"logo": "https://live.fanmingming.cn/tv/{name}.png",
+				"url": "https://codeberg.org/gyj07/TV/raw/branch/main/tv.txt"
+				
+			},
+			{
+				"name": "莫人5",
+				"type": 0,
+				"ua": "okhttp/3.15",
+				"epg": "https://live.fanmingming.cn/e.xml",
+				"logo": "https://live.fanmingming.cn/tv/{name}.png",
+				"url": "https://codeberg.org/gyj07/TV/raw/branch/main/tv2.txt"
+				
+			},
+			{
+				"name": "moren6",
+				"type": 0,
+				"ua": "okhttp/3.15",
+				"epg": "https://live.fanmingming.cn/e.xml",
+				"logo": "https://live.fanmingming.cn/tv/{name}.png",
+				"url": "https://gh-proxy.com/raw.githubusercontent.com/gyjune/cc/main/zgyd.txt"
+				
+			},
+			{
+				"name": "AKTV",
+				"type": 0,
+				"ua": "okhttp/3.15",
+				"epg": "https://live.fanmingming.cn/e.xml",
+				"logo": "https://live.fanmingming.cn/tv/{name}.png",
+				"url": "https://aktv.space/live.m3u"
+				
+			},
+			{
+				"name": "YanG-1989",
+				"type": 0,
+				"ua": "okhttp/3.15",
+				"epg": "https://live.fanmingming.cn/e.xml",
+				"logo": "https://live.fanmingming.cn/tv/{name}.png",
+				"url": "https://github.moeyy.xyz/https://github.com/YanG-1989/m3u/blob/main/Migu.m3u"
+				
+			},
+			{
+				"name": "莫人8",
+				"type": 0,
+				"ua": "okhttp/3.15",
+				"epg": "https://live.fanmingming.cn/e.xml",
+				"logo": "https://live.fanmingming.cn/tv/{name}.png",
+				"url": "https://8177.kstore.space/电视直播/tv.json"
+				
+				
+			}
+	
+		],
+"sites":[
+
+
+{"key":"csp_DouBan",
+"name":"🔍呵呵有名┃本接口免费",
+"type":3,
+"api":"csp_DouBan",
+"searchable":0,
+"filterable":1,
+"changeable":1
+},
+{
+      "key": "花生",
+      "name": "花生┃T短剧",
+      "type": 3,
+     "api": "csp_XBPQ",
+"ext": {
+"线路数组":"#playlist&&</li>",
+"线路标题":">&&</a>",
+"播放数组":"<ul class=\"myui-content__list sort-list clearfix\"&&</ul>",
+"播放标题":".html\">&&</a>",
+"分类url":"https://www.thyilian.com/hsersw/5-大陆-{by}-{cateId}-----{catePg}---{year}.html",
+"分类": "女频恋爱$女频恋爱#反转爽$反转爽#脑洞悬疑$脑洞悬疑#年代穿越$年代穿越#古装仙侠$古装仙侠#现代都市$现代都市",
+"年份":"2024-2022"
+}
+},
+          { "key": "duanjuwang1",
+            "name":"好看短剧┃T爽剧",
+            "type": 3,          
+            "api": "csp_XBPQ",
+            "ext": {
+            "线路数组":" <a&&/a>",
+            "线路二次截取":"<div class=\"hl-plays-from hl-tabs swiper-wrapper clearfix\">&&</div>",
+            "线路标题":"</i>&nbsp;&&<",
+			
+            "分类url":"https://duanjuhk.com/vodshow/by/{by}/id/{cateId}/page/{catePg}/year/{year}.html",
+                 
+             "分类": "精选短剧$jingxuanduanju#都市$dushi#穿越$chuanyue#古代$gudai#福利短剧$fuliduanju" }
+            },   
+				
+		  { "key": "duanjuwang",
+		    "name":"短剧网┃T爽剧",
+		    "type": 3,          
+		    "api": "csp_XBPQ",
+		    "ext": {
+		  				         
+		  	
+		  
+		    "分类url":"https://www.duanjuwang.cc/vodshow/{cateId}-大陆-{by}------{catePg}---{year}.html",
+		         
+		     "分类": "女频恋爱$npla#反转爽剧$fzsj#古装仙侠$gzxx#年代穿越$ndcy#脑洞悬疑$ndxy#现代都市$xdds#有声动漫$ysdm" }
+		    },  
+			 
+			 { "key":"奇酷",
+			   "name":"奇库┃T爽剧",
+			   "type": 3,          
+			   "api": "csp_XBPQ",
+			   "ext": {
+			 				         
+			 			 "线路数组":"module-tab-item tab-item&&</div>",
+			   "线路标题":"<span>&&</small>[替换:</span><small>>>共]+集",
+			 
+			   "分类url":"https://1tmr7o8xxseu.top/vodshow/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",
+			        
+			   "分类": "电影$1#电视剧$2#动漫$4#综艺$35" }
+			   },    
+			 { "key": "哪吒",
+			   "name": "哪吒┃T爽剧",
+			   "type": 3,          
+			   "api": "csp_XBPQ",
+			   "ext": {
+		"数组": "<div class=\"myui-vodbox-content\">&&</a></div>",
+				"链接": "href=\"&&\"",
+	    "标题": "title\">&&</div>",
+	    "图片":"<img src=\"&&\"",
+	
+	    "线路数组":"#playlist&&</li>",
+	    "线路标题":">&&</a>",
+        "播放列表":"<a&&/a>",
+	    "播放标题":">&&<",
+	    "播放链接":"href=\"&&\"",
+	    		  			         
+			   
+			 
+			   "分类url":"https://nezhayy.com/index.php/vod/show/area/{area}/by/{by}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html",
+			        
+			   "分类": "电影$2#电视剧$1#动漫$3#综艺$4#短剧$41#体育赛事$5" }
+			   },    	
+			 
+		{ "key": "poniupi",
+		  "name": "帕牛皮┃T爽剧",
+		  "type": 3,          
+		  "api": "csp_XBPQ",
+		  "ext": {
+		 			         
+		  
+		
+		  "分类url":"https://papiniu.com/index.php/vod/show/area/{area}/by/{by}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html",
+		       
+		  "分类": "电影$2#电视剧$1#动漫$3#综艺$4#体育赛事$5" }
+		  },    	
+			
+		{ "key": "5点1",
+		  "name":"5点电影┃T爽剧",
+		  "type": 3,          
+		  "api": "csp_XBPQ",
+		  "ext": {
+			"线路数组":"<li class=\"swiper-slide ewave-tab&&</li>",
+			
+			"线路标题":"#ewave-playlist*>&&<em>",
+					  			         
+			
+		
+		  "分类url":"https://www.5.movie/vodshow/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",
+		       
+		   "分类": "电影$20#电视剧$21#动漫$22#综艺$23#短剧$24" }
+		  },   
+			 
+		  { "key": "TVB云播",
+		    "name":"TVB云播┃T爽剧",
+		    "type": 3,          
+		    "api": "csp_XBPQ",
+		    "ext": {
+		  				         
+		  	"线路数组":"</i> 排序</a>&&</h3>",
+			
+		    "线路标题":">&&",
+		  
+		    "分类url":"http://www.tvyun09.com/vod/show/area/{area}/by/{by}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html",
+		         
+		     "分类": "电影$1#电视剧$2#动漫$4#综艺$3#短剧$19" }
+		    },   
+		  
+          { "key": "电影先生",
+            "name": "电影先生┃T爽剧",
+            "type": 3,          
+            "api": "csp_XBPQ",
+            "ext": {
+				         
+			 "线路数组":"module-tab-item tab-item&&</div>",
+		    "线路标题":"<span>&&</small>[替换:</span><small>>>共]+集",
+
+            "分类url":"https://xn--44qz85a01qpc.com/pianku-{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",
+                 
+             "分类": "电影$dianying#剧集$dianshiju#动漫$dongman#综艺$zongyi" }
+            },    
+
+
+          { "key": "老王",
+            "name": "老王┃T爽剧",
+            "type": 3,          
+            "api": "csp_XBPQ",
+            "ext": {
+				         
+			 "线路数组":"module-tab-item tab-item&&</div>",
+		    "线路标题":"<span>&&</small>[替换:</span><small>>>共]+集",
+
+            "分类url":"https://laowang.co/vs/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",
+                 
+            "分类": "电影$1#电视剧$2#动漫$4#综艺$3#短剧$5" }
+            },    
+
+        {
+          "key": "茶杯狐",
+          "name": "茶杯狐┃T爽剧",
+          "type": 3,
+          "api": "csp_XBPQ",
+          "ext": {
+            
+            "分类url": "http://www.bnjxjd.com/vodshow/area/{area}/by/{by}/id/{cateId}/page/{catePg}/year/{year}.html",
+            "分类": "电影$fenlei1#剧集$fenlei2#动漫$fenlei4#综艺$fenlei3"
+            
+          }
+        },
+         { "key": "freeok",
+            "name": "freeok┃T爽剧",
+            "type": 3,          
+            "api": "csp_XBPQ",
+            "ext": {
+				         
+			"线路数组":"module-tab-item tab-item&&</div>",
+	    
+	        "线路标题":"data-dropdown-value=\"&&\"",
+
+            "分类url":"https://freeokvod.com/freeok-show/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",
+                 
+            "分类": "电影$1#电视剧$2#动漫$3#综艺$4#短剧$20" }
+            },    
+
+{
+          "key": "137影院",
+          "name": "137┃T爽剧",
+          "type": 3,
+          "api": "csp_XBPQ",
+          "ext": {
+            "简介":"<span class=\"detail-sketch\">&&</span>",
+			"线路数组":"<li>&&</li>",
+			"线路标题":">&&</a>",
+            "分类url": "https://www.137pc.com/137top/{cateId}/area/{area}/page/{catePg}/year/{year}.html",
+            "分类": "电影$dianying#剧集$dianshiju#动漫$dongman#综艺$zongyi#纪录片$jilupian"
+            
+          }
+        },
+		
+  { "key": "量子",
+            "name": "量子┃T爽剧",
+            "type": 3,          
+            "api": "csp_XBPQ",
+            "ext": {
+				           
+				   "线路数组":"module-tab-item tab-item&&</div>",
+	    
+	   "线路标题":"data-dropdown-value=\"&&\"+【+共+<small>&&</small>+集】",
+                "分类url":"https://lzi888.com/index.php/vod/show/area/{area}/by/{by}/class/{class}/id/{cateId}/page/{page}/year/{year}.html",
+                "分类": "电影$1#电视剧$2#动漫$4#综艺$3" }
+            },     
+ 
+      { "key": "牛马",
+            "name": "牛马┃T爽剧",
+            "type": 3,          
+            "api": "csp_XBPQ",
+            "ext": {
+				           
+				   "线路数组":"module-tab-item tab-item&&</div>",
+	    
+	   "线路标题":"data-dropdown-value=\"&&\"+【+共+<small>&&</small>+集】",
+                "分类url":"https://www.niumasp.com/vodshow/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",
+                "分类": "电影$1#电视剧$2#动漫$4#综艺$3" }
+            },     
+          
+    { "key": "影视大全",
+            "name": "影视大全┃T爽剧",
+            "type": 3,          
+            "api": "csp_XBPQ",
+            "ext":{
+
+                "分类url": "https://www.welingo.com/type/{cateId}-{catePg}.html",
+                "分类": "电影$1#电视剧$2#综艺$4#动漫$3",
+                "类型": "动作片$6#喜剧片$7#爱情片$8#科幻片$9#恐怖片$10#剧情片$11#战争片$12#悬疑$13#动画$14#犯罪$15#奇幻片$16||国产剧$18#香港剧$23#韩国剧$19#欧美剧$20#台湾剧$21#日本剧$22#泰国剧$24#海外剧$25||空||空"
+
+            }
+
+          
+          
+            },
+
+        { "key": "永乐视频",
+         "name": "永乐┃T爽剧",
+         "type": 3,          
+         "api": "csp_XBPQ",
+         "ext": {
+            "请求头": "User-Agent$MOBILE_UA",
+       "编码": "UTF-8",
+	   "线路数组":"module-tab-item tab-item&&</div>",
+	    
+	   "线路标题":"data-dropdown-value=\"&&\"+【+共+<small>&&</small>+集】",
+                "分类": "电影$1#电视剧$2#综艺$3#动漫$4#",
+                "类型": "动作片$6#喜剧片$7#爱情片$8#科幻片$9#奇幻片$10#恐怖片$11#剧情片$12#战争片$20#动画片$26#悬疑片$22#冒险片$23#犯罪片$24#惊悚片$45#歌舞片$46#灾难片$47#网络片$48||国产剧$13#港台剧$14#日剧$15#韩剧$33#欧美剧$16#泰剧$34#新马剧$35#其他剧$25||内地综艺$27#港台综艺$28#日本综艺$29#韩国综艺$36#欧美综艺$30#新马泰综艺$37#其他综艺$38||国产动漫$31#日本动漫$32#韩国动漫$39#港台动漫$40#新马泰动漫$41#欧美动漫$42#其他动漫$43",
+                "分类url": "https://www.ylys.tv/vodshow/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}/"
+        
+            }
+
+
+         },
+        { "key": "面包",
+         "name": "面包┃T爽剧",
+         "type": 3,          
+         "api": "csp_XBPQ",
+         "ext": {
+      "请求头": "User-Agent$MOBILE_UA",
+       "编码": "UTF-8",
+        "分类url": "https://v.aiwule.com/vodshow/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}.html",
+        "分类": "电影$20#电视剧$21#动漫$23#综艺$22#短剧$47",
+        "线路数组": "<li class=\"swiper-slide ewave-tab&&</li>",
+        "线路标题": "#ewave-playlist*>&&<em>"
+       
+      
+      }
+
+         },
+		
+           { "key": "神马1",
+            "name": "神马┃T爽剧",
+            "type": 3,          
+            "api": "csp_XBPQ",
+            "ext": {
+				           
+				"简介":"剧情介绍：</b><p>&&</P></P>",
+                "分类url":"https://shenmyy.com/shvodshow/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",
+                "分类": "电影$1#电视剧$2#动漫$4#综艺$3" }
+            },
+			
+ {
+			"key": "XBPQ_好乐影视",
+			"name": "好乐┃T爽剧",
+			"type": 3,
+			"api": "csp_XBPQ",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"ext": {
+				"数组": "class=\"hl-list-item hl-col-xs-* hl-col-sm-* hl-col-md-* hl-col-lg-*&&</li",
+				"线路数组": "hl-tabs-btn hl-slide-swiper&&</a",
+				"线路标题": "alt=\"&&\"[不包含:http下载]",
+				"分类url": "https://www.haolev.com/vodshow/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html;;k",
+				"分类": "电影$xc1#电视剧$xc2#综艺$xc3#动漫$xc4",
+				"类型": "动作片$11#喜剧片$12#科幻片$13#恐怖片$14#爱情片$15#剧情片$16#战争片$17#纪录片$18#动画片$20||国产剧$21#香港剧$22#台湾剧$23#韩国剧$24#日本剧$25#欧美剧$26#泰国剧$27#海外剧$28||大陆综艺$29#港台综艺$30#日韩综艺$31#欧美综艺$32||国产动漫$33#港台动漫$34#日韩动漫$35#欧美动漫$36#海外动漫$37"
+			}
+		},
+		{
+					"key": "XBPQ_木瓜影视",
+					"name": "木瓜┃T爽剧",
+					"type": 3,
+					"api": "csp_XBPQ",
+					"searchable": 1,
+					"quickSearch": 1,
+					"filterable": 1,
+					"ext": {
+						"二次截取":"<div class=\"vodlist\">&&</div></div></div></div>",
+					  "数组":"<li>&&</li>",
+					  "标题":"title=\"&&\"[替换:电影>>空#电视剧>>空#动漫>>空#综艺>>空#短剧>>空#专题>>空]",
+					  "副标题": "<em>&&</em>",
+					  "图片": "data-src=\"&&\"",
+					  "链接": "href=\"&&\"",
+						"线路数组":"<div class=\"hd\">&&</div>",
+						"线路标题":"<h4>&&</h4>[替换:猜你喜欢>>空#热门播放>>空#最近更新>>空#线路1>>空#线路2>>空]",
+						"线路链接":"href=\"&&\"",
+						"播放数组":"<ul>&&</ul>",
+						"播放标题":">&&</a>",
+						
+						"播放链接":"href=\"&&\"",
+						"分类url": "https://www.muguatv.org/vodlist/{cateId}?catid=0&type={class}&area={area}&year={year}&page={catePg}",
+						"分类": "电影$1#电视剧$2#综艺$3#动漫$4#短剧$5"
+						
+					}
+				},
+           { "key": "开心",
+            "name": "开心┃T爽剧",
+            "type": 3,          
+            "api": "csp_XBPQ",
+            "ext": {
+				           
+				"简介":"剧情介绍:&&</P>",
+                "分类url":"http://www.kaixinvod.com/show/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",
+                "分类": "电影$1#电视剧$2#动漫$4#综艺$3" }
+            },
+			
+{           "key": "keke",
+            "name": "可可┃T爽剧",
+            "type": 3,          
+            "api": "csp_XBPQ",
+            "ext": {
+		"标题":"<div class=\"v-item-title\">&&</div>",   
+ "线路数组":"class=\"swiper-slide source-swiper-slide&&</div>",
+		    
+		   "线路标题":"source-item-label\">&&</span>",     
+				
+            "分类url":"https://www.kkys03.com/show/{cateId}-{class}-{area}--{year}-{by}-{catePg}.html",
+            "分类": "电影$1#电视剧$2#动漫$4#综艺$3#短剧$6",
+			"排序":"综合$1#最新$2#最热$3#评分$4"
+			}
+            },
+          { "key": "速影era",
+            "name": "速影┃T爽剧",
+            "type": 3,          
+            "api": "csp_XBPQ",
+            "ext": {
+				            "线路数组":"<h3&&/h3>",
+			 
+            "线路标题":">&&<",
+				
+                "分类url":"https://ihawei.com/ihvodshow/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",
+                "分类": "电影$1#电视剧$2#动漫$4#综艺$3" }
+            },
+ { "key": "大海影视",
+            "name": "大海┃T爽剧",
+            "type": 3,          
+            "api": "csp_XBPQ",
+            "ext": {
+            "播放数组":"<ul class=\"stui-content__playlist clearfix\">&&</ul>",
+ "播放标题":">&&</a>[替换:дрр滈凊>>空]",
+ "播放链接":"href=\"&&\"",       
+            
+ "分类url":"https://www.vsyy520.net/dahaisw/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",
+                "分类": "电影$1#电视剧$2#动漫$4#综艺$3#短剧$5" }
+            },
+{
+          "key": "追剧",
+          "name": "追剧兔┃T爽剧",
+          "type": 3,
+          "api": "csp_XBPQ",
+          "ext": {
+            "线路数组":"module-tab-item tab-item&&</div>",
+			 
+            "线路标题":"data-dropdown-value=\"&&\"+【+共+<small>&&</small>+集】",
+			
+            "分类url": "https://www.stslight.com/vodshow/{cateId}-{area}-{by}-{class}-----{catePg}---{year}/",
+            "分类": "电影$dianying#剧集$dsj#动漫$dongman#4K电影$4kdianying#综艺$zongyi#短剧$shuangwenduanju"
+            
+          }
+        },
+ { "key": "星辰影院",
+            "name": "星辰┃T爽剧",
+            "type": 3,          
+            "api": "csp_XBPQ",
+            "ext": {
+				
+				
+                "分类url":"https://www.shhanyu.com/xcsx/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",
+                "分类": "电影$1#电视剧$2#动漫$4#综艺$3#短剧$5" }
+            },
+{
+          "key": "大米",
+          "name": "大米星球┃T爽剧",
+          "type": 3,
+          "api": "csp_XBPQ",
+          "ext": {
+            "线路数组":"module-tab-item tab-item&&</div>",
+			 
+            "线路标题":"data-dropdown-value=\"&&\"+【+共+<small>&&</small>+集】",
+			
+            "分类url": "https://www.cbdsqw.com/vodshow/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",
+            "分类": "电影$dianying#剧集$dsj#4K电影$4kdianying#动漫$dongman#综艺$zongyi#短剧$shuangwenduanju"
+            
+          }
+        },
+  { "key": "88影院",
+            "name": "88┃T爽剧",
+            "type": 3,          
+            "api": "csp_XBPQ",
+            "ext": {
+				
+				
+                "分类url":"https://www.yxz88.com/show/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",
+                "分类": "电影$1#电视剧$2#动漫$4#综艺$3" }
+            },
+ {
+      "key": "乐看",
+      "name": "乐看|T爽剧",
+      "type": 3,
+     "api": "csp_XBPQ",
+"ext": {
+            "线路数组":"module-tab-item tab-item&&</div>",
+			 
+            "线路标题":"<span>&&</span>+【+共+<small>&&</small>+集】",
+			
+"分类url":"https://laowang.co/vs/{cateId}-{area}-{by}-{class}-----{catePg}---{year}/",
+"分类": "电影$1#剧集$2#动漫$4#综艺$3#短剧$34"
+}
+},
+{
+          "key": "影趣",
+          "name": "影趣┃T爽剧",
+          "type": 3,
+          "api": "csp_XBPQ",
+          "ext": {
+          "数组":"/voddetail/&&</li>",
+          "线路数组":"<a class=\"channelname swiper-slide&&</a>",
+          "线路标题":"alt=\"&&\"",
+          "标题":"title=\"&&\"[替换:高清在线播放>>空]",
+"播放数组":"<ul class=\"content_playlist cf\">&&</ul>",
+          "分类url": "https://yingqu1.com/vodshow/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",
+		  
+	           "分类": "电影$1#剧集$2#动漫$4#综艺$3"
+          }
+        },
+
+
+{
+          "key": "麻花",
+          "name": "麻花┃T爽剧",
+          "type": 3,
+          "api": "csp_XBPQ",
+          "ext": {
+        "简介":"请不要相信片中广告，注意甄别!+<span class=\"sketch content\">&&</span>",
+          "分类url": "https://www.ubo118.com/show/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",
+		  
+		  "分类": "电影$movie#剧集$tv#动漫$dongman#综艺$zongyi"
+          }
+        },
+
+{
+          "key": "第一起看",
+          "name": "第一┃T爽剧",
+          "type": 3,
+          "api": "csp_XBPQ",
+          "ext": {
+        "简介":"请不要相信片中广告，注意甄别！",
+          "分类url":"https://www.di1yy.com/d1tv/{cateId}/area/{area}/page/{catePg}/year/{year}.html",
+		  
+		  "分类": "电影$dianying#剧集$dianshiju#动漫$dongman#综艺$zongyi#纪录片$jilupian"
+          }
+        },
+
+{
+          "key": "八戒影院",
+          "name": "八戒┃T爽剧",
+          "type": 3,
+          "api": "csp_XBPQ",
+          "ext": {
+        
+          "分类url": "https://89vod.com/show/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",
+		  
+		  "播放数组":"<ul class=\"stui-content__playlist column10 clearfix\">&&</ul>",
+		  
+		  "播放标题":">&&</a>",
+		  
+		  "播放链接":"https://89vod.com+href='&&'",
+		  
+           "分类": "电影$1#剧集$2#动漫$4#综艺$3"
+          }
+        },
+{
+          "key": "八一yingy",
+          "name": "八一┃T爽剧",
+          "type": 3,
+          "api": "csp_XBPQ",
+          "ext": {
+            "线路数组":"module-tab-item tab-item&&</div>",
+			 
+            "线路标题":"data-dropdown-value=\"&&\"+【+共+<small>&&</small>+集】",
+			
+            "分类url": "https://www.iyuerui.com/vodshow/{cateId}-{area}-{by}-{class}-----{catePg}---{year}/",
+            "分类": "电影$dianying#剧集$dsj#动漫$dongman#综艺$zongyi#短剧$shuangwenduanju"
+            
+          }
+        },
+		
+          { "key": "策驰影院",
+            "name": "策驰┃T爽剧",
+            "type": 3,          
+            "changeable": 1,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "api": "csp_XBPQ",
+            "ext": {
+				
+				
+                "分类url": "https://www.cechi999.cc/show/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",
+                "分类": "电影$j999j#电视剧$v999j#动漫$Q999j#综艺$A999j#国产剧$K999j#欧美剧$F999j#日韩剧$6999j" }
+            },
+{
+          "key": "金牌",
+          "name": "金牌┃T爽剧",
+          "type": 3,
+          "api": "csp_XBPQ",
+          "ext": {
+        
+          "分类url": "https://www.jinyu56.com/jpwusx/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",
+		  
+           "分类": "电影$1#剧集$2#动漫$4#综艺$3"
+          }
+        },
+{
+          "key": "番茄",
+          "name": "番茄┃T爽剧",
+          "type": 3,
+          "api": "csp_XBPQ",
+          "ext": {
+          "数组":"<li class=\"col-md-6 col-sm-4 col-xs-3\">&&</li>",
+          
+          "标题":"title=\"&&\"",
+          
+          "副标题":"pic-text text-right\">&&</span>",
+          
+          "图片":"style=\"&&\">",
+          
+          "链接":"href=\"&&\"", 
+		  
+          "分类url": "https://www.fsyuyou.com/fqsixz/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",
+		  
+          "分类": "电影$1#剧集$2#动漫$4#综艺$3#短剧$5"
+          }
+        },
+		
+{
+          "key": "爱看",
+          "name": "爱看┃T爽剧",
+          "type": 3,
+          "api": "csp_XBPQ",
+          "ext": {
+			  "主演":"主演:&&</li>",
+			  
+			  "导演":"导演:&&</li>",
+			  
+			  "影片地区":"地区:&&</li>",
+			  
+			  "影片类型":"分类:&&</li>",
+			  
+			   "影片年代":"年份:&&</li>",
+			  
+			  "数组":"<li class=\"mo-paxs-5px mo-pamd-10px mo-cols-info mo-cols-xs4 mo-cols-sm3 mo-cols-lg2\">&&</li>",
+			  
+			  "标题":"html\">&&</a><span",
+			  
+			  "副标题":"mo-situ-rema mo-part-ramp mo-fsxs-12px mo-text-white mo-coxs-center\">&&</span>",
+			  
+		 "图片":"data-original=\"&&\"",
+			  
+			  "链接":"href=\"&&\"+html",  
+			  
+			  "简介":"mo-paxs-5px mo-ptxs-0px\">&&</div>",
+			  
+			  "线路数组":"mo-movs-btns mo-mrxs-5px mo-mrmd-10px&&/a>",
+			  
+			  "线路标题":"</i>&&<",
+          
+              "分类url": "https://www.ikanys.com/vod/show/area/{area}/by/{by}/id/{cateId}/page/{catePg}/year/{year}.html",
+			
+              "分类": "电影$1#剧集$2#动漫$4#综艺$3#短剧$5"
+          }
+        },
+{
+          "key": "影视猫",
+          "name": "影视猫┃T爽剧",
+          "type": 3,
+          "api": "csp_XBPQ",
+          "ext": {
+          
+            "分类url": "https://ysmao.cc/vodshow/{cateId}/area/{area}/by/{by}/class/{class}/page/{catePg}/year/{year}.html",
+           "分类": "电影$1#剧集$2#动漫$4#综艺$3#短剧$29"
+          }
+        },
+{
+          "key": "悟空",
+          "name": "悟空┃T爽剧",
+          "type": 3,
+          "api": "csp_XBPQ",
+          "ext": {
+          
+            "分类url": "https://www.chinasumadang.com/sumadangVS/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",
+           "分类": "电影$1#剧集$2#动漫$4#综艺$3#短剧$44"
+          }
+        },
+{
+          "key": "影视工厂",
+          "name": "影视工厂┃T爽剧",
+          "type": 3,
+          "api": "csp_XBPQ",
+          "ext": {
+         
+         "线路数组":"无需安装任何插件</span>&&</div>",
+         
+         "线路标题":">&&</h3>",
+		 "播放链接":"https://www.hjxy.net+href='&&'",
+         "分类url": "https://www.hjxy.net/vodshow/{cateId}-{area}-{by}------{catePg}---{year}.html",
+		 
+         "分类": "电影$1#剧集$2#动漫$4#综艺$3"
+          }
+        },
+{
+      "key": "秀儿影视",
+      "name": "秀儿影视|T爽剧",
+      "type": 3,
+     "api": "csp_XBPQ",
+"ext": {
+
+    "数组":"<div class=\"module-item\">&&</div>",
+    
+    "标题":"alt=\"&&\"",
+    
+    "副标题":"module-item-text\">&&</div>",
+    
+    "图片":"data-src=\"&&\"",
+    
+    "链接":"href=\"&&\"",
+"分类url":"https://www.xiuer.pro/show/{cateId}/by/{by}/class/{class}/page/{catePg}/year/{year}/",
+"分类": "电影$dianying#剧集$dianshiju#动漫$dongman#综艺$zongyi#短剧$duanju"
+
+
+}
+},
+ {
+          "key": "一个G",
+          "name": "一个G┃T爽剧",
+          "type": 3,
+          "api": "csp_XBPQ",
+          "ext": {
+          "线路数组":"module-tab-item tab-item&&</div>", 
+          "线路标题":"data-dropdown-value=\"&&\"+【  +共+<small>&&</small>+集】",
+            "分类url": "https://www.ygg01.com/vodshow/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",
+           "分类": "电影$1#剧集$2#动漫$4#综艺$3#短剧$5"
+          }
+        },
+         {
+          "key": "jumi",
+          "name": "剧迷┃T爽剧",
+          "type": 3,
+          "api": "csp_XBPQ",
+          "ext": {
+         
+
+            "分类url": "https://gimy.tv/genre/{cateId}-{area}-{year}-{catePg}/by/{by}.html",
+           "分类": "电影$1#剧集$2#动漫$4#综艺$3"
+          }
+        },
+ {
+      "key": "老王",
+      "name": "老王|T爽剧",
+      "type": 3,
+     "api": "csp_XBPQ",
+"ext": {
+
+"分类url":"https://laowang.co/vs/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",
+"分类": "电影$1#剧集$2#动漫$4#综艺$3#短剧$5"
+}
+},
+{
+      "key": "乌卡猫影院",
+      "name": "乌卡|T爽剧",
+      "type": 3,
+     "api": "csp_XBPQ",
+"ext": {
+
+"分类url":"https://www.wukamao.com/vodshow/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",
+"分类": "电影$1#剧集$2#动漫$4#综艺$3#伦理片$20"
+}
+},
+{
+	  "key": "秋霞",
+	  "name": "秋霞┃T爽剧",
+	  "type": 3,
+	  "api": "csp_XBPQ",
+	  "ext": {
+	    "线路数组":"<li>&&</li>",
+	    "线路标题":">&&</a>",
+	   
+	    "分类url": "https://www.7xys.com/rou/{cateId}--{by}------{catePg}---.html",
+	    "分类数组": "<li class=\"col-lg-5 col-md-5 col-sm-5 col-xs-3\">&&</li>",
+	    "分类标题": ">&&</a>",
+	    "分类ID": "href=\"/EKQQ/&&.html\""
+	  }
+	},
+
+      { "key": "神马",
+            "name": "神马┃T爽剧",
+            "type": 3,          
+            "changeable": 1,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "api": "csp_XBPQ",
+            "ext": {
+				 "简介":"请勿相信影片中的广告，以免上当受骗！+简介&&</p>",
+                "分类url": "http://smpian.com/vodshow/{cateId}-{area}--{class}-----{catePg}---{year}/",
+                "分类": "电影$dianying#电视剧$dianshiju#动漫$dongman#综艺$zongyi#伦理片$lunlipian" }
+            },
+       {
+      "key": "ikanbot3",
+      "name": "机器┃T爽剧",
+      "type": 3,
+      "api": "https://gitee.com/gyjune/xj/raw/master/lib/drpy2.min.js",
+      "ext": "https://gitee.com/gyjune/xj/raw/master/lib/ikanbot3.js"
+    },
+      {
+      "key": "csp_xBPQ_番茄",
+      "name": "番茄┃T爽剧",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext":{
+ 
+    "筛选":"1",
+
+    "类型":"全部$1#动作片$6#喜剧片$7#爱情片$8#科幻片$9#恐怖片$10#剧情片$11#战争片$12#记录片$13#悬疑片$14#犯罪片$15#奇幻片$16#动画片$31||全部$2#国产剧$17#欧美剧$21#日韩剧$20#港台剧$18#海外剧$22||空||空",
+ 
+    "作者":"天马行空",
+    
+    "站名":"番茄影院",
+  
+    "数组":"<div class=\"stui-vodlist__box\">&&</div>",
+    
+    "标题":"title=\"&&\"",
+    
+    "副标题":"<span class=\"pic-text text-right\">&&</span>",
+    
+    "图片":"data-original=\"&&\"",
+    
+    "链接":"href=\"&&\"",
+ 
+ 
+    "线路数组":"<div class=\"stui-pannel__head bottom-line active clearfix\">&&</div>",
+  
+    "线路标题":">&&</h3>",
+
+  
+    "播放数组":"<ul class=\"stui-content__playlist clearfix\">&&</ul>",
+  
+    "播放标题":">&&</a>",
+	
+	"播放列表":"<li >&&</li>",
+    
+    "简介":"【天马行空】提醒您请勿相信影片中的广告，以免上当受骗！+<p class=\"col-pd\">&&</p>", 
+		
+    "分类url":"https://www.jiuhaobashi.com/fqsw/{cateId}-{area}-{by}------{catePg}---{year}.html", 
+       
+    "分类":"电影$1#电视剧$2#动漫$4#综艺$3"
+
+
+}
+    }
+]
+}
