@@ -5,7 +5,7 @@
 
 	"lives":[
 			{
-				"name": "默认1",
+				"name": "jsyd1",
 				"type": 0,
 				"ua": "okhttp/3.15",
 				"epg": "https://live.fanmingming.cn/e.xml",
@@ -14,7 +14,7 @@
 				
 			},
 			{
-				"name": "默认2",
+				"name": "高清",
 				"type": 0,
 				"ua": "okhttp/3.15",
 				"epg": "https://live.fanmingming.cn/e.xml",
@@ -23,7 +23,7 @@
 				
 			},
 			{
-				"name": "默认3",
+				"name": "jsnw1",
 				"type": 0,
 				"ua": "okhttp/3.15",
 				"epg": "https://live.fanmingming.cn/e.xml",
@@ -32,7 +32,7 @@
 				
 			},
 			{
-				"name": "默认4",
+				"name": "jsnw2",
 				"type": 0,
 				"ua": "okhttp/3.15",
 				"epg": "https://live.fanmingming.cn/e.xml",
@@ -41,7 +41,7 @@
 				
 			},
 			{
-				"name": "莫人5",
+				"name": "绝俗乃为学",
 				"type": 0,
 				"ua": "okhttp/3.15",
 				"epg": "https://live.fanmingming.cn/e.xml",
